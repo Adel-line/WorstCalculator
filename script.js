@@ -25,3 +25,6 @@ function start() {
   }
 }
 
+document.querySelector("#clear").addEventListener("click", e=>{
+    window.location.reload();
+});
